@@ -1,0 +1,6 @@
+{
+  "name": "nextjs-npm",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bullseye",
+  "postCreateCommand": "cd my-app && npm ci",
+  "forwardPorts": [3000]
+}
