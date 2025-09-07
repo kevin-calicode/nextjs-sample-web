@@ -1,6 +1,6 @@
 {
   "name": "nextjs-npm",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bullseye",
-  "postCreateCommand": "cd my-app && npm ci",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y git-lfs && git lfs install; cd my-app && npm ci",
   "forwardPorts": [3000]
 }
